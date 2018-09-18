@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    width: 100%;
+}
+
+.mail p {
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+}
+
+.mail {
+    text-align: center;
+}
+
+.aceptar {
+    background-color: plum;
+    color: white;
+    border: 3px solid transparent;
+    border-radius: 3px;
+}
+
+.iconos {
+    text-align: right;
+    font-size: 30px;
+    color: plum;
+}
+
+.derechos {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.usuario {
+    color: plum;
+}
+
+@media (max-width: 800px) {
+    
+    .main-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    .mail {
+        text-align: center;
+        width: 100%;
+    }
+
+    .mail p {
+        display: block;
+    }
+    
+    .iconos {
+        text-align: center;
+        width: 100%;
+    }
+}
